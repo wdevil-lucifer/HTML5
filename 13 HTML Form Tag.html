@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <fieldset border="1">
+        <legend>User's Personal Information</legend>
+        <form action="">
+            <label for="name">Name</label>
+            <div>
+                <input type="text" name="name" id="name">
+            </div><br>
+            <label for="email">Email</label>
+            <div>
+                <input type="email" name="email" id="email">
+            </div><br>
+            <label for="password">Password</label>
+            <div>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <label for="cnt">Country</label>
+            <div>
+                <select name="cnt" id="cnt">
+                    <option value="none">Select One</option>
+                    <option value="bd">Bangladesh</option>
+                    <option value="in">India</option>
+                    <option value="npl">Nepal</option>
+                    <option value="sl">Sri Lanka</option>
+                </select>
+            </div><br>
+            <label for="gender">Gender</label>
+            <div>
+                <input type="radio" name="gender" id="gender"> Male
+                <input type="radio" name="gender" id="gender"> Female
+            </div><br>
+            <label for="hobbies">Hobbies</label>
+            <div>
+                <input type="checkbox" name="hobbies" id="hobbies"> Reading Book
+                <input type="checkbox" name="hobbies" id="hobbies"> Music
+                <input type="checkbox" name="hobbies" id="hobbies"> Travelling
+            </div><br>
+            <label for="abt">More Information</label>
+            <div>
+                <textarea name="abt" id="abt" cols="50" rows="5" placeholder="Tell us more about yourself........."></textarea>
+            </div><br>
+            <label for="pto">Photo</label>
+            <div>
+                <input type="file" name="pto" id="pto">
+            </div><br>
+            <div>
+                <button type="submit">Save</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
